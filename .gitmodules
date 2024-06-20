@@ -1,0 +1,3 @@
+[submodule "docker-devpi"]
+	path = docker-devpi
+	url = https://github.com/coatl-dev/docker-devpi.git
