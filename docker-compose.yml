@@ -1,0 +1,14 @@
+services:
+  devpi:
+    image: coatldev/devpi
+    build:
+      context: docker-devpi
+    volumes:
+      - data:/data
+    hostname: pypi.localf
+    ports:
+      - "3141:3141"
+
+volumes:
+  data:
+    driver: local
